@@ -1,0 +1,43 @@
+﻿<@{
+Layout = "layoutemailtemplate.cshtml";
+}
+<table id="results">
+    <tbody>
+    <tr>
+        <td>Проект:</td>
+        <td>@Model.ProjectName</td>
+    </tr>
+    <tr>
+        <td>Repository:</td>
+        <td>@Model.RepositoryName</td>
+    </tr>
+    <tr>
+        <td>Ветка:</td>
+        <td>@Model.BranchName</td>
+    </tr>
+    <tr>
+        <td>Версия:</td>
+        <td>@Model.Version</td>
+    </tr>
+    <tr>
+        <td>Запустил:</td>
+        <td>@Model.RunBy</td>
+    </tr>
+    <tr>
+        <td>Лог сборки:</td>
+        <td><a href="@Model.BuildLogUrl">Build Log</a></td>
+    </tr>
+    <tr>
+        <td>Статус сборки:</td>
+        <td>@Model.BuildState</td>
+    </tr>
+    <tr>
+        <td>Тип сборки:</td>
+        <td>@Model.BuildType</td>
+    </tr>
+    <tr>
+        <td>Скачать:</td>
+        <td><a href="@Model.DownloadUrl">Download</a></td>
+    </tr>
+    </tbody>
+</table>

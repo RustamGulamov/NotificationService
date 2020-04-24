@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "JQmx7eb/GRjb5LhvdnshX8sEArfsG7IG0KECjJ4k4QKSYyuOqo99kXP7Maxhp6kMwwHDgDOcamAFIxsyr5wocw==",
+  "success": true,
+  "projectFilePath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\RabbitMQClient\\RabbitMQClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.2\\microsoft.extensions.configuration.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.2\\microsoft.extensions.dependencyinjection.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.2\\microsoft.extensions.fileproviders.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.2\\microsoft.extensions.hosting.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.2\\microsoft.extensions.logging.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.options\\3.1.2\\microsoft.extensions.options.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.2\\microsoft.extensions.primitives.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\rabbitmq.client\\5.1.2\\rabbitmq.client.5.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

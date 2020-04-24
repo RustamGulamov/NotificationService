@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "9at5oabVFb0hiZyi0lJcB87/rcnUAnxOFA9vGLJ4BbnPUM/uYA0j7vVAZyhD0OqPkSox3zmyqZoKdCrPptK/bA==",
+  "success": true,
+  "projectFilePath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\RabbitClient.Dotnet\\RabbitClient.Dotnet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.2\\microsoft.extensions.configuration.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.2\\microsoft.extensions.dependencyinjection.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.2\\microsoft.extensions.fileproviders.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.2\\microsoft.extensions.hosting.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.2\\microsoft.extensions.logging.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.options\\3.1.2\\microsoft.extensions.options.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.2\\microsoft.extensions.primitives.3.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\rabbitmq.client\\5.1.2\\rabbitmq.client.5.1.2.nupkg.sha512",
+    "C:\\Users\\gulamov.rustam\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

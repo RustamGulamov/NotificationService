@@ -1,0 +1,32 @@
+﻿{% extends "baseEmailTemplate.html" %}
+{% block baseBlock %}{{block.super()}} + inherited template{% endblock %}
+{% block additionalBlock %}
+<tr>
+    <td>Запустил:</td>
+    <td>{{runBy}}</td>
+</tr>
+<tr>
+    <td>Лог сборки:</td>
+    <td><a href="{{buildLogUrl}}">Build Log</a></td>
+</tr>
+<tr>
+    <td>Статус сборки:</td>
+    <td>{{buildState}}</td>
+</tr>
+<tr>
+    <td>Тип сборки:</td>
+    <td>{{buildType}}</td>
+</tr>
+<tr>
+    <td>Скачать:</td>
+    <td><a href="{{downloadUrl}}">Download</a></td>
+</tr>
+<tr>
+    <td>Показать:</td>
+    <td>{{showUrl}}</td>
+</tr>
+<tr>
+    <td>Время сборки:</td>
+    <td>{{buildTime}}</td>
+</tr>
+{% endblock %}

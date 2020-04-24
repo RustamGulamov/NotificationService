@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        #results {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #results td, #results th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #results tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #results tr:hover {
+                background-color: #ddd;
+            }
+
+            #results th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+            }
+
+        #title {
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+    <h1> {% block baseBlock %} Base Template Jinja.{% endblock %} </h1>
+    <div>
+        <h1>Параметры сборки:</h1>
+    </div>
+    <div id="content">
+        {% block content %}
+        <table id="results">
+            <tbody>
+                <tr>
+                    <td>Проект:</td>
+                    <td>{{projectName}}</td>
+                </tr>
+                <tr>
+                    <td>Repository:</td>
+                    <td>{{repositoryName}}</td>
+                </tr>
+                <tr>
+                    <td>Ветка:</td>
+                    <td>{{branchName}}</td>
+                </tr>
+                <tr>
+                    <td>Версия:</td>
+                    <td>{{version}}</td>
+                </tr>
+                {% block additionalBlock %}{% endblock %}
+            </tbody>
+        </table>
+        {% endblock %}
+    </div>
+    <div>
+        <h1>Отчет создан с использованием шаблонизатора Jinja.</h1>
+    </div>
+    <div id="footer">
+        <div class="footer" style="clear: both; Margin-top: 10px; text-align: center; width: 100%;">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+                <tr>
+                    <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
+                        <br /> Do not like these emails? <a href="http://i.imgur.com/CScmqnj.gif" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">Unsubscribe</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

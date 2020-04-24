@@ -1,0 +1,259 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Logic\\NotificationService.Logic.csproj": {}
+  },
+  "projects": {
+    "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Data\\NotificationService.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Data\\NotificationService.Data.csproj",
+        "projectName": "NotificationService.Data",
+        "projectPath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Data\\NotificationService.Data.csproj",
+        "packagesPath": "C:\\Users\\gulamov.rustam\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gulamov.rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Logic\\NotificationService.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Logic\\NotificationService.Logic.csproj",
+        "projectName": "NotificationService.Logic",
+        "projectPath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Logic\\NotificationService.Logic.csproj",
+        "packagesPath": "C:\\Users\\gulamov.rustam\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gulamov.rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Data\\NotificationService.Data.csproj": {
+                "projectPath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\NotificationService.Data\\NotificationService.Data.csproj"
+              },
+              "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\RabbitMQClient\\RabbitMQClient.csproj": {
+                "projectPath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\RabbitMQClient\\RabbitMQClient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "DotLiquid": {
+              "target": "Package",
+              "version": "[2.0.325, )"
+            },
+            "FluentEmail.Core": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "FluentEmail.Razor": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "FluentEmail.Smtp": {
+              "target": "Package",
+              "version": "[2.7.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Sentry.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\RabbitMQClient\\RabbitMQClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\RabbitMQClient\\RabbitMQClient.csproj",
+        "projectName": "RabbitMQClient",
+        "projectPath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\RabbitMQClient\\RabbitMQClient.csproj",
+        "packagesPath": "C:\\Users\\gulamov.rustam\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentation\\notification_service\\release_board_notification_service\\Source\\RabbitMQClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gulamov.rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

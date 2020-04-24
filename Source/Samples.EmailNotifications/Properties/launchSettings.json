@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Samples.EmailNotifications": {
+      "commandName": "Project",
+      "commandLineArgs": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IlMtMS01LTIxLTExMjg2Mjc4NTgtMTAxMTE3MTgyMS0yMDQ4NDc1Njg0LTI3NzM3IiwiTmFtZSI6IlNoYWdiYWxvdiBNYXJhdCIsIkVtYWlsIjoiTWFyYXQuU2hhZ2JhbG92QGluZm90ZWNzLnJ1IiwiUm9sZXMiOlsiVmlld2VyIiwiRGV2T3BzIl0sImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6WyJWaWV3ZXIiLCJEZXZPcHMiXSwibmJmIjoxNTQ3NzMwNzY3LCJleHAiOjE1NTAzMjI3NjcsImlzcyI6IlJlbGVhc2VTeXN0ZW0uQXV0aGVudGljYXRpb25TZXJ2aWNlIiwiYXVkIjoiSW5mb3RlY3NVc2VycyJ9.HT1sKcC7pTejTr4P3gAyUDcyLG3MS9viC8dsamwP8uk"
+    }
+  }
+}

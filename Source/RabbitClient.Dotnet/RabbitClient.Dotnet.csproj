@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+    <PropertyGroup>
+        <AssemblyName>RabbitClient.Dotnet</AssemblyName>
+        <RootNamespace>RabbitClient.Dotnet</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <OutputPath>..\..\Out\Debug\RabbitClient.Dotnet</OutputPath>
+      <DocumentationFile>..\..\Out\Debug\RabbitClient.Dotnet\RabbitClient.Dotnet.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <OutputPath>..\..\Out\Release\RabbitClient.Dotnet</OutputPath>
+      <DocumentationFile>..\..\Out\Release\RabbitClient.Dotnet\RabbitClient.Dotnet.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RabbitMQClient\RabbitMQClient.csproj" />
+    </ItemGroup>
+</Project>
